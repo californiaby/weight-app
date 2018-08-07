@@ -22,6 +22,25 @@
   font-size: large;
 }
 
+.grid {
+  border: 0px dotted #999;
+  width: 1000px;
+}
+
+.user-grid-element {
+  border: 0px dotted #f66;
+  text-align: left;
+}
+
+.column {
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
